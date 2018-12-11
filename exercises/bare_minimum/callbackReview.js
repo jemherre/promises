@@ -15,7 +15,7 @@ var pluckFirstLineFromFile = function (filePath, callback) {
       data = data.split('\n');
       callback(null , data[0]);
     }
-  })
+  });
 };
 
 // This function should retrieve the status code of a GET request to `url`
