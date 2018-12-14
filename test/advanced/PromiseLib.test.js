@@ -4,7 +4,7 @@ var Promise = require('bluebird');
 
 var delay = require('../../lib/asyncLib.js').delay;
 
-describe('PromiseLib', function() {
+xdescribe('PromiseLib', function() {
   var PromiseLib = require('../../exercises/advanced/PromiseLib.js');
 
   describe('Promise.promisify', function() {
